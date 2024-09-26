@@ -8,7 +8,7 @@ public class HelloWorldApi {
 	
 	@GetMapping
 	public String helloWorld() {
-		return "Hello world";
+		return "Hello world! Deployment successful!";
 	}
 
 }
